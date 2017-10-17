@@ -1,0 +1,4 @@
+augusto|123|
+admin|admin|
+jose|123456|
+administrador|administrador@2017
