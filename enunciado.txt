@@ -1,0 +1,36 @@
+Avaliação M2
+
+Os itens da avaliação deverão ser realizados sobre o código fonte do nosso sistema gerenciador de sites.  
+
+(3 pontos) Crie uma galeria de imagens. 
+
+Criar o módulo para listar, editar, incluir e remover imagens ao site.
+Permitir o link para download das imagens da galeria para ser utilizado nas páginas do site.
+A galeria de imagens deverá ser acessada somente via sessão autenticada.
+O download da imagem poderá ser feito por qualquer usuário, autenticado ou não.
+Manter em banco de dados a data de criação da imagem, o usuario que criou a imagem e o seu tipo mime;
+
+
+(3 pontos)Ajustar o módulo administrativo para permitir a edição de uma página HTML. (atualmente o sistema somente armazena a indicação para uma página pré-existente)
+(Sugestão: Utilizar um editor do tipo wysiwyg, https://www.webdesignerdepot.com/2008/12/20-excellent-free-rich-text-editors/)
+Opcionalmente, o usuário poderá fazer o upload de uma página previamente criada. Após isso, o seu conteúdo poderá ser editado.
+Manter em banco além das informações já existentes na versão antiga, a data de criação da página, o autor (usuário autenticado) e o seu status (rascunho, publicado ou inativo);
+Permitir desativar uma página.
+Permitir informar tags para uma página.
+Guardar histórico das mudanças de status de uma página. O histórico deverá informar o usuário responsável pela alteração e a data em que a ação ocorreu.
+
+
+(1 ponto) Ajustar o sistema para isolar o módulo administrativo, que deverá ser acessado via /admin/index.php. (ps. atualmente, o módulo administrativo é uma página comum do site)
+
+
+(3 pontos) Implementar a persistência dos dados do sistema (páginas, galeria de imagens, usuários, etc) em banco de dados.
+Entregar o modelo lógico do banco.
+O banco a ser utilizado deverá ser postgreSQL ou MySQL.
+ 
+
+ ALTERAÇÃO 1
+
+Manter em banco além das informações já existentes na versão antiga, a data de criação da página, o autor (usuário autenticado) e o seu status (rascunho, publicado ou inativo) (ANTERIORMENTE ESTAVA SOMENTE ATIVO E INATIVO);
+ ALTERAÇÃO 2
+
+No item 2.1: Guardar histórico das mudanças de status de uma página. O histórico deverá informar o usuário responsável pela alteração e a data em que a ação ocorreu.
