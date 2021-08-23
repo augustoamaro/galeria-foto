@@ -1,2 +1,3 @@
-# provaM2
-Prova M2 - Disciplina: Programação
+# ProvaM2
+Projeto Galera de Fotos <br>
+Disciplina: Programação
